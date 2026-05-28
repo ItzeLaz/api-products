@@ -9,7 +9,7 @@ app.use(morgan("dev"));
 
 // Esta es la ruta raíz que pediste para que no dé error 404
 app.get("/", (req, res) => {
-  res.send("API de Productos funcionando correctamente");
+  res.send("API de Productos funcionando correctamente de ItzelLV");
 });
 
 // Tus rutas de productos
